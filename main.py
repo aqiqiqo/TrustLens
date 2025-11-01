@@ -37,7 +37,7 @@ hide_streamlit_style = """
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-MODEL_NAME =  "HamzaFarhan/fake-news-detector"
+MODEL_NAME =  "sereotubu/fake-news-detector-isot"
 REPORTS_DIR = "reports"
 IMAGE_DB_DIR = "image_db"  
 
@@ -304,3 +304,4 @@ def main():
     st.markdown("---")
 if __name__ == "__main__":
     main()
+
